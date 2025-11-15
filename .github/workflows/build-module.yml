@@ -12,11 +12,11 @@ jobs:
     strategy:
       matrix:
         build_env:
-          - tag: "23.05.4"
+          - tag: "24.10.4"
             pkgarch: mipsel_24kc
             target: ramips
             subtarget: mt7621
-            vermagic: "144de9e5c1a8813b724b14faa054d9f0"
+            vermagic: "ae7dcdf01cb63b83c64f5cb8d8960511"
 
     steps:
       - uses: actions/checkout@v4
